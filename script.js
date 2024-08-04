@@ -8,4 +8,8 @@ btn.addEventListener("click", ()=>{
     if(input.value === "Areeba"){
       display.innerHTML = arWish
     }
+    else if(input.value !== "Areeba"){
+      alert("invalid username")
+      
+    }
 })
